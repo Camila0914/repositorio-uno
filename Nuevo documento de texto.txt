@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Ejemplos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+    <header>
+        <!-- Logos y menu -->
+    <nav>
+        <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Nicole_Kidman">Biografia</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Nicole_Kidman#/media/Archivo:Nicole_Kidman_(29900987478)_(cropped).jpg">Fotos</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Nicole_Kidman">Canciones</a></li>
+        </ul>
+
+    </nav> 
+
+    </header>
+        <main>
+            
+            
+            
+            <h1>Tabla</h1>
+            <form >
+                <label>Nombre</label>
+                <br>
+                <input type="text" name="txtNombre" required></input>
+                <br>
+                <label>Correo Electronico</label>
+                <br>
+                <input type="text" name="txtCorreo"></input>
+                <br>
+                <label>Telefono</label>
+                <br>
+                <input type="number" name="txtTelefono" min="9999" max="999999999"></input>
+                <br>
+                <label>Ingresar Fecha:</label>
+                <br>
+                <input type="date" name="txtFecha"></input>
+                <br>
+                <label>Contraseña</label>
+                <br>
+                <input type="password" name="txtContraseña"></input>
+                <br><br>
+                <label >Ingresar Vehiculos</label>
+                <br>
+                <select name="vehiculos">
+                <br>
+                    <option value="1">Mercedes</option>
+                    <option value="2">Audi</option>
+                    <option value="3">Fiat</option>
+                
+                </select>
+                <br><br>
+                <input type="submit" value="Guardar"></input>
+            </form>
+            <br><br>
+            <h1>TABLA</h1>
+            <table border="1" accesskey=""> 
+                <tr>
+                    <th></th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>NC</td>
+                    <td>NC</td>
+                    <td>6-8</td>
+                    <td>6-8</td>
+                    <td>6-8</td>
+                </tr>
+
+
+            </table>
+
+            <h2>Peliculas</h2>
+
+            <p>My life</p>
+            <p>Cold Mountain</p>
+            <p>Los otros</p>
+            <p>Australia</p>
+
+        </main>
+        <footer>
+            <center><p>pie de pagina</p></center>
+            <div class="diseño_caja1">
+                <h1 id="footer">Titulo div</h1>
+                <p id="parrafo1">parrafo1</p>
+                <p id= "parrafo2">parrafo2</p>
+            </div>
+            <div class="diseño_caja1">
+                <h1 id="footer">Titulo div</h1>
+                <p id="parrafo1">parrafo1</p>
+                <p id= "parrafo2">parrafo2</p>
+            </div>
+            <div class="diseño_caja1">
+                <h1 id="footer">Titulo div</h1>
+                <p id="parrafo1">parrafo1</p>
+                <p id= "parrafo2">parrafo2</p>
+            </div>
+        </footer>
+    </body>
+</html>
